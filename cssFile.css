@@ -1,0 +1,224 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)), url(anime-sky-background-oht9iwoapkfevoqw.jpg);
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: #1F2937;
+    padding: 10px 0 25px 0;
+    margin-bottom: 3%;
+     
+}
+
+ul{
+    margin: 0 15%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #E5E7EB;
+    padding-left: 0;
+    padding-bottom: 2%;
+}
+#logo{
+    flex:1;  
+    font-size: 24px;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+
+.sec1{
+    margin: 2% 15%;
+    align-items: center;
+    display: flex;
+
+    
+}
+
+.frontLeft{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+
+}
+.frontRight{
+    justify-self: flex-end;   
+}
+.frontRight img{
+    border-radius: 20px;
+}
+
+h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+#p1{
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+#b1{
+    margin-top: 2%;
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+/* ------ sec2  ---------*/
+
+
+.sec2{
+    background-color: rgba(4,9,30,0);
+    margin: 0 15%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    color: #E5E7EB;
+    justify-content: center;
+}
+.foto{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.foto img{
+        border: 3px outset #5E5DF0;
+        border-radius: 20px;
+        transition: 0.5s;
+}
+.foto img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgb(241, 241, 241);
+}
+
+.foto .caption {
+    text-align: center;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+
+/* -------------- sec 3  ---- */
+
+.sec3{
+    background-color: rgba(4,9,30,0.6);
+    margin-top: 7%;
+}
+
+#quote{
+    margin: 0 15% 0 15%;
+    padding: 8% 0 0 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+#cit{
+    margin: 0 15% 0 15%;
+    padding: 1% 0 5% 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    position: relative;
+    right: 40px;
+    color: #F9FAF8;
+}
+
+
+/* ----------- sec 4 BLU  ----- */
+
+.sec4{
+    background-color: rgba(4,9,30,0);
+    margin: 0 15%;
+    margin-top: 9%;
+    margin-bottom: 8%;
+}
+
+.sfondoBlu{
+    display: flex;
+    background-color: rgba(168, 168, 235, 1);
+    justify-content: center;
+    margin: 0 10%;
+    gap: 190px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1% 0;
+}
+
+.scritteBoh{
+    flex-direction: column;
+    
+}
+
+#b2{
+    
+    height: 40px;
+    align-items: center;
+      background-color: #FFFFFF;
+      border: 0;
+      border-radius: .5rem;
+      box-sizing: border-box;
+      color: #111827;
+      font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: .875rem;
+      font-weight: 600;
+      line-height: 1.25rem;
+      padding: .75rem 1rem;
+      text-align: center;
+      text-decoration: none #D1D5DB solid;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+ }
+    
+   
+/* --------- FOOTER ------- */
+
+footer{  
+    display: flex;
+    background-color: #1F2937;
+    height: 50px; 
+    align-items: center;
+    justify-content: center;
+}
+
+#abcd{
+    
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+    text-align: center;
+}    
